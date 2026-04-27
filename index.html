@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M-uplift | Desarrollo y Automatización</title>
+
+  <meta name="description" content="Desarrollo web, automatización y soluciones digitales para empresas en Costa Rica.">
+
+  <link rel="icon" href="img/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">M-uplift</div>
+
+  <nav class="nav" id="nav-menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#casos">Casos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="hero-container">
+
+    <img src="assets/img/logo.png" alt="M-uplift Logo" class="hero-logo">
+
+    <h1>Impulsamos tu negocio con tecnología</h1>
+
+    <p>
+      Creamos páginas web, sistemas y automatizaciones que ayudan a empresas a crecer y vender más.
+    </p>
+
+    <a href="#contacto" class="btn">Solicitar diagnóstico</a>
+
+  </div>
+</section>
+
+<section id="servicios" class="servicios">
+  <h2>Servicios</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">🌐</div>
+      <h3>Desarrollo Web</h3>
+      <p>Sitios rápidos, modernos y optimizados para tu negocio.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💼</div>
+      <h3>Sistemas Empresariales</h3>
+      <p>Soluciones hechas a medida para mejorar tu operación.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🛠️</div>
+      <h3>Mantenimiento</h3>
+      <p>Soporte continuo y monitoreo para tus sistemas.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚙️</div>
+      <h3>Automatización</h3>
+      <p>Reducí tiempo y aumentá la productividad de tu empresa.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CASOS -->
+<section id="casos" class="casos">
+  <h2>Casos de Éxito</h2>
+
+  <div class="cards">
+
+    <!-- PROYECTO REAL -->
+    <div class="card caso">
+      <h3>Gestor de Casos CCSS</h3>
+      <p>
+        Sistema web para la gestión de inspecciones, asignación de casos y seguimiento automatizado.
+      </p>
+
+      <div class="acciones">
+        <a href="https://gestordecasosccss.netlify.app" target="_blank" class="btn">
+          Ver sistema
+        </a>
+        <a href="https://github.com/luisumana2311/gestor-de-casos" target="_blank" class="btn secundario">
+          Ver código
+        </a>
+      </div>
+    </div>
+
+    <!-- PROYECTO EN EQUIPO -->
+    <div class="card caso">
+      <h3>Tienda Web Deportiva</h3>
+      <p>
+        Aplicación web desarrollada en equipo con Spring Boot y Thymeleaf.
+        Incluye carrito, pedidos y gestión de productos.
+      </p>
+
+      <div class="badges">
+        <span class="badge">Spring Boot</span>
+        <span class="badge">Thymeleaf</span>
+        <span class="badge">MySQL</span>
+        <span class="badge equipo">Equipo</span>
+      </div>
+
+      <div class="acciones">
+        <a href="https://github.com/luisumana2311/TIENDA-WEB-U.git" target="_blank" class="btn">
+          Ver código
+        </a>
+        <button class="btn disabled">No disponible en línea</button>
+      </div>
+    </div>
+
+    <!-- EN DESARROLLO -->
+    <div class="card caso">
+      <h3>App de Entrenamiento</h3>
+      <p>
+        Aplicación web para rutinas, seguimiento de progreso y métricas deportivas.
+      </p>
+
+      <button class="btn disabled">En desarrollo</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="beneficios" class="beneficios">
+  <h2>¿Por qué elegirnos?</h2>
+
+  <ul>
+    <li>✔ Atención rápida y directa</li>
+    <li>✔ Soluciones reales para empresas</li>
+    <li>✔ Precios accesibles</li>
+    <li>✔ Enfoque en resultados</li>
+  </ul>
+</section>
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+
+  <form id="contactForm">
+    <input type="text" name="from_name" placeholder="Nombre" required>
+    <input type="email" name="from_email" placeholder="Correo" required>
+    <textarea name="message" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="form-status"></p>
+</section>
+
+<footer>
+  <p>© 2025 M-uplift · Costa Rica</p>
+</footer>
+
+<a href="https://wa.me/50685226779?text=Hola%2C%20me%20interesa%20una%20cotizaci%C3%B3n%20para%20mi%20negocio."
+  class="whatsapp-float" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
