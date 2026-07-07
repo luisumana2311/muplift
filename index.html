@@ -1,181 +1,238 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M-uplift | Desarrollo y Automatización</title>
-
-  <meta name="description" content="Desarrollo web, automatización y soluciones digitales para empresas en Costa Rica.">
-
-  <link rel="icon" href="img/favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Luis Mariano Uma&ntilde;a | Backend Developer</title>
+  <meta name="description" content="Professional portfolio for Luis Mariano Uma&ntilde;a, Software Engineering Student and Backend Developer.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
-<header class="navbar">
-  <div class="logo">M-uplift</div>
-
-  <nav class="nav" id="nav-menu">
-    <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#beneficios">Beneficios</a>
-    <a href="#casos">Casos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <div class="menu-toggle" id="menu-toggle">☰</div>
-</header>
-
-<section id="inicio" class="hero">
-  <div class="hero-container">
-
-    <img src="assets/img/logo.png" alt="M-uplift Logo" class="hero-logo">
-
-    <h1>Impulsamos tu negocio con tecnología</h1>
-
-    <p>
-      Creamos páginas web, sistemas y automatizaciones que ayudan a empresas a crecer y vender más.
-    </p>
-
-    <a href="#contacto" class="btn">Solicitar diagnóstico</a>
-
-  </div>
-</section>
-
-<section id="servicios" class="servicios">
-  <h2>Servicios</h2>
-
-  <div class="cards">
-
-    <div class="card">
-      <div class="icon">🌐</div>
-      <h3>Desarrollo Web</h3>
-      <p>Sitios rápidos, modernos y optimizados para tu negocio.</p>
-    </div>
-
-    <div class="card">
-      <div class="icon">💼</div>
-      <h3>Sistemas Empresariales</h3>
-      <p>Soluciones hechas a medida para mejorar tu operación.</p>
-    </div>
-
-    <div class="card">
-      <div class="icon">🛠️</div>
-      <h3>Mantenimiento</h3>
-      <p>Soporte continuo y monitoreo para tus sistemas.</p>
-    </div>
-
-    <div class="card">
-      <div class="icon">⚙️</div>
-      <h3>Automatización</h3>
-      <p>Reducí tiempo y aumentá la productividad de tu empresa.</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- CASOS -->
-<section id="casos" class="casos">
-  <h2>Casos de Éxito</h2>
-
-  <div class="cards">
-
-    <!-- PROYECTO REAL -->
-    <div class="card caso">
-      <h3>Gestor de Casos CCSS</h3>
-      <p>
-        Sistema web para la gestión de inspecciones, asignación de casos y seguimiento automatizado.
-      </p>
-
-      <div class="acciones">
-        <a href="https://gestordecasosccss.netlify.app" target="_blank" class="btn">
-          Ver sistema
-        </a>
-        <a href="https://github.com/luisumana2311/gestor-de-casos" target="_blank" class="btn secundario">
-          Ver código
-        </a>
-      </div>
-    </div>
-
-    <!-- PROYECTO EN EQUIPO -->
-    <div class="card caso">
-      <h3>Tienda Web Deportiva</h3>
-      <p>
-        Aplicación web desarrollada en equipo con Spring Boot y Thymeleaf.
-        Incluye carrito, pedidos y gestión de productos.
-      </p>
-
-      <div class="badges">
-        <span class="badge">Spring Boot</span>
-        <span class="badge">Thymeleaf</span>
-        <span class="badge">MySQL</span>
-        <span class="badge equipo">Equipo</span>
-      </div>
-
-      <div class="acciones">
-        <a href="https://github.com/luisumana2311/TIENDA-WEB-U.git" target="_blank" class="btn">
-          Ver código
-        </a>
-        <button class="btn disabled">No disponible en línea</button>
-      </div>
-    </div>
-
-    <!-- EN DESARROLLO -->
-    <div class="card caso">
-  <h3>LiftTrackerX</h3>
-  <p>
-    Aplicación web para crear rutinas, registrar progreso y dar seguimiento a métricas deportivas.
-  </p>
-
-  <div class="acciones">
-    <a href="https://lifttrackerx.netlify.app" target="_blank" class="btn">
-      Ver sistema
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Luis Mariano Uma&ntilde;a home">
+      <span class="brand-mark">LU</span>
+      <span>Luis Mariano Uma&ntilde;a</span>
     </a>
-  </div>
-</div>
 
-  </div>
-</section>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-<section id="beneficios" class="beneficios">
-  <h2>¿Por qué elegirnos?</h2>
+    <nav class="nav" id="nav-menu" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <ul>
-    <li>✔ Atención rápida y directa</li>
-    <li>✔ Soluciones reales para empresas</li>
-    <li>✔ Precios accesibles</li>
-    <li>✔ Enfoque en resultados</li>
-  </ul>
-</section>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">BACKEND &bull; JAVA &bull; NODE.JS</p>
+        <h1>Luis Mariano Uma&ntilde;a</h1>
+        <p class="hero-title">Backend Developer | Software Engineering Student</p>
+        <p class="hero-copy">
+          Building scalable backend systems, REST APIs and database-driven applications
+          using Java, Spring Boot, ASP.NET MVC, Node.js and SQL databases.
+        </p>
 
-<section id="contacto" class="contacto">
-  <h2>Contacto</h2>
+        <div class="hero-actions" aria-label="Profile links">
+          <a class="btn btn-primary" href="https://github.com/luisumana2311" target="_blank" rel="noreferrer">View GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/marianoumana/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="assets/Luis_Mariano_Umana_Araya_CV.pdf" download>Download CV</a>
+        </div>
+      </div>
 
-  <form id="contactForm">
-    <input type="text" name="from_name" placeholder="Nombre" required>
-    <input type="email" name="from_email" placeholder="Correo" required>
-    <textarea name="message" placeholder="Mensaje" required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
+      <aside class="profile-card reveal" aria-label="Backend developer profile summary">
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span>Available for backend opportunities</span>
+        </div>
+        <div class="terminal-window" aria-hidden="true">
+          <div class="terminal-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <pre><code>const developer = {
+  name: "Luis Mariano Uma&ntilde;a",
+  focus: ["REST APIs", "Databases", "Backend Services"],
+  stack: ["Java", "Spring Boot", "Node.js", "SQL"]
+};</code></pre>
+        </div>
+      </aside>
+    </section>
 
-  <p id="form-status"></p>
-</section>
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Backend-minded, practical, and focused on reliable systems.</h2>
+      </div>
 
-<footer>
-  <p>© 2025 M-uplift · Costa Rica</p>
-</footer>
+      <div class="about-grid single">
+        <p class="about-text reveal">
+          I am a Software Engineering student and Backend Developer focused on building
+          practical, maintainable web systems. My work centers on REST APIs,
+          database-driven applications, business logic, MVC architecture and backend
+          services that solve real operational problems.
+        </p>
+      </div>
+    </section>
 
-<a href="https://wa.me/50685226779?text=Hola%2C%20me%20interesa%20una%20cotizaci%C3%B3n%20para%20mi%20negocio."
-  class="whatsapp-float" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
-</a>
+    <section class="section stack" id="stack">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Tech Stack</p>
+        <h2>Tools and technologies I use to build web applications.</h2>
+      </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="js/main.js"></script>
+      <div class="tech-list reveal" aria-label="Technology stack">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>C#</span>
+        <span>ASP.NET MVC</span>
+        <span>Entity Framework Core</span>
+        <span>JavaScript</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>React</span>
+        <span>Python</span>
+        <span>SQL Server</span>
+        <span>Oracle</span>
+        <span>MongoDB</span>
+        <span>MySQL</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Postman</span>
+      </div>
+    </section>
 
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Selected work for backend systems, data, and practical software.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div>
+            <p class="project-kicker">Case Management</p>
+            <h3>Gestor de Casos</h3>
+            <p>Full-stack web application for managing inspection cases, assignments, resolutions and administrative workflows.</p>
+          </div>
+          <div class="project-stack">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn btn-small btn-secondary" href="https://github.com/luisumana2311/gestor-de-casos" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-small btn-primary" href="https://gestordecasosccss.netlify.app" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div>
+            <p class="project-kicker">Data and AI</p>
+            <h3>AI Cycling Coach</h3>
+            <p>AI-powered full-stack application for cycling training planning, athlete profiles and adaptive workout recommendations.</p>
+          </div>
+          <div class="project-stack">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>React</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn btn-small btn-secondary" href="https://github.com/luisumana2311/ciclingIA-" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div>
+            <p class="project-kicker">Java Web System</p>
+            <h3>House Management Web System</h3>
+            <p>Java web application for managing housing information, CRUD operations and database-driven workflows.</p>
+          </div>
+          <div class="project-stack">
+            <span>Java</span>
+            <span>SQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn btn-small btn-secondary" href="https://github.com/luisumana2311/house-management-web-system" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div>
+            <p class="project-kicker">Academic System</p>
+            <h3>Student Control System</h3>
+            <p>Python CLI application for managing students, grades, averages and CSV import/export.</p>
+          </div>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>CSV</span>
+            <span>OOP</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn btn-small btn-secondary" href="https://github.com/luisumana2311/Sistema-de-Control-de-Estudiantes" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resume" id="resume">
+      <div class="resume-panel reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>Recruiter-ready profile and project overview.</h2>
+          <p>
+            Download my CV for a concise view of my education, technical skills,
+            and backend development projects.
+          </p>
+        </div>
+        <a class="btn btn-primary" href="assets/Luis_Mariano_Umana_Araya_CV.pdf" download>Download CV</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let us connect about backend, internships, and software roles.</h2>
+      </div>
+
+      <div class="contact-grid reveal">
+        <a href="mailto:marianoumana@gmail.com">
+          <span>Email</span>
+          marianoumana@gmail.com
+        </a>
+        <a href="https://github.com/luisumana2311" target="_blank" rel="noreferrer">
+          <span>GitHub</span>
+          github.com/luisumana2311
+        </a>
+        <a href="https://www.linkedin.com/in/marianoumana/" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+          linkedin.com/in/marianoumana
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Luis Mariano Uma&ntilde;a. Backend Developer Portfolio.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>
